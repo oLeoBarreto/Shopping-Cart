@@ -1,0 +1,40 @@
+.Home {
+    padding: 0 30px 30px;
+
+    .page-title {
+        padding: 40px 0;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .content {
+        display: flex;
+
+        section {
+            flex: 1;
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+        
+                thead {
+                    tr {
+                        border-bottom: 2px solid #a3a3a3;
+                    
+                        th {
+                            text-align: left;
+                            padding-bottom: 10px;
+                            text-transform: uppercase;
+                            color: #a3a3a3;
+                        }
+                    }
+                }
+            }
+        }
+
+        aside {
+            min-width: 250px;
+            margin-left: 30px;
+        }
+    }
+}

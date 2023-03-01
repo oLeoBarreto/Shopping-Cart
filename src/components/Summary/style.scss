@@ -1,0 +1,69 @@
+.box {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: #d4d4d4;
+    color: #222;
+    border-radius: 10px;
+
+    .head {
+        padding: 15px 20px;
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: 1px solid #a3a3a3;
+    }
+
+    .info {
+        padding: 20px;
+        font-size: 16px;
+        font-weight: 400;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            color: #555;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+
+        .discount-btn {
+            background: transparent;
+            border: 0;
+            font-size: 16px;
+            color: #28a745;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .total {
+        padding: 15px 20px;
+        background: #bdbdbd;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+.buy-btn {
+    padding: 15px 0;
+    color: white;
+    background: #28a745;
+    border: 0;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        background: #22923c;
+    }
+}
